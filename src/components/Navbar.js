@@ -22,7 +22,7 @@ class Navbar extends Component {
             </ul>
     
             <Link className="ml-auto" to="/cart">
-                <button>
+                <button className="cartbutton">
                   <span className="mr-2">
                     <i className="fa fa-cart-plus"></i>
                   </span>

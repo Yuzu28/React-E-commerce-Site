@@ -9,14 +9,14 @@ export const storeProducts = [
       info:
         "Those born in the years 1933, 1945, 1957, 1969, 1981, 1993, 2005, and 2017 are roosters according to the Chinese Zodiac! Show your rooster pride this year with this cute Chinese Zodiac rooster design!",
       productDescription: "Our fitted Unisex Cotton tee is made from an exceedingly soft 100% ring spun cotton. It features a crew neckline with hemmed sleeves and bottom for durability. Preshrunk for your convenience! Printed in the USA. Made with 100% Ring Spun Cotton. Athletic Gray is made up of 90% cotton and 10% polyester.",
-      inCart: false,
+      inCart: true,
       count: 0,
       total: 0
     },
     {
       id: 2,
       title: "Dog - CHINESE ZODIAC T-SHIRT",
-      img: "img/product-2.png",
+      img: "img/dog.png",
       price: 16,
       company: "USA",
       info:
@@ -29,7 +29,7 @@ export const storeProducts = [
     {
       id: 3,
       title: "Dragon - CHINESE ZODIAC T-SHIRT",
-      img: "img/product-3.png",
+      img: "img/dragon.png",
       price: 8,
       company: "USA",
       info:
@@ -42,7 +42,7 @@ export const storeProducts = [
     {
       id: 4,
       title: "Goat - CHINESE ZODIAC T-SHIRT",
-      img: "img/product-4.png",
+      img: "img/goat.png",
       price: 18,
       company: "USA",
       info:
@@ -55,7 +55,7 @@ export const storeProducts = [
     {
       id: 5,
       title: "Horse - CHINESE ZODIAC T-SHIRT",
-      img: "img/product-5.png",
+      img: "img/horse.png",
       price: 24,
       company: "USA",
       info:
@@ -68,7 +68,7 @@ export const storeProducts = [
     {
       id: 6,
       title: "Monkey - CHINESE ZODIAC T-SHIRT",
-      img: "img/product-6.png",
+      img: "img/monkey.png",
       price: 17,
       company: "USA",
       info:
@@ -81,7 +81,7 @@ export const storeProducts = [
     {
       id: 7,
       title: "Ox- CHINESE ZODIAC T-SHIRT",
-      img: "img/product-7.png",
+      img: "img/ox.png",
       price: 30,
       company: "USA",
         info:
@@ -94,7 +94,7 @@ export const storeProducts = [
     {
       id: 8,
       title: "Pig - CHINESE ZODIAC T-SHIRT",
-      img: "img/product-8.png",
+      img: "img/pig.png",
       price: 2,
       company: "USA",
       info:
@@ -107,7 +107,7 @@ export const storeProducts = [
     {
         id: 9,
         title: "Rabbit - CHINESE ZODIAC T-SHIRT",
-        img: "img/chicken.png",
+        img: "img/rabbit.png",
         price: 10,
         company: "USA",
         info:
@@ -120,7 +120,7 @@ export const storeProducts = [
       {
         id: 10,
         title: "Rat - CHINESE ZODIAC T-SHIRT",
-        img: "img/chicken.png",
+        img: "img/rat.png",
         price: 10,
         company: "USA",
         info:
@@ -133,7 +133,7 @@ export const storeProducts = [
       {
         id: 11,
         title: "Snake - CHINESE ZODIAC T-SHIRT",
-        img: "img/chicken.png",
+        img: "img/snake.png",
         price: 10,
         company: "USA",
         info:
@@ -146,7 +146,7 @@ export const storeProducts = [
       {
         id: 12,
         title: "Tiger - CHINESE ZODIAC T-SHIRT",
-        img: "img/chicken.png",
+        img: "img/tiger.png",
         price: 10,
         company: "USA",
         info:
