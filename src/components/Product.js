@@ -11,10 +11,12 @@ class Product extends Component {
                 <div className="card">
               
 
+            <ProductConsumer>
+                {(value) =>(
+                
 
 
-
-                <div className="img-container p-5" onClick={()=>console.log("click me")}>
+                <div className="img-container p-5" onClick={()=>value.handleDetail(id)}>
                 
                     <Link to="/details">
 
@@ -22,7 +24,7 @@ class Product extends Component {
                     </Link>
 
 
-                      <button className="cart-btn small-btn float-right"  disabled={inCart?true:false} onClick={()=>{console.log("added to the cart")}}>
+                      <button className="cart-btn small-btn float-right"  disabled={inCart?true:false} onClick={()=>{value.addToCart(id)}}>
 
 
                             {inCart ? (
@@ -36,8 +38,13 @@ class Product extends Component {
 
         </button>
                 </div>
+
+                )}
+                </ProductConsumer>
+
               
                 </div>
+
 
                 {/* card footer */}
 
