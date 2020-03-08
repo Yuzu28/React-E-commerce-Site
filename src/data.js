@@ -159,14 +159,16 @@ export const storeProducts = [
   ];
   
   export const detailProduct = {
+    
     id: 1,
-    title: "Google Pixel - Black",
-    img: "img/img/chicken.png",
+    title: "Chicken Zodiac T-Shirt ",
+    img: "img/chicken.png",
     price: 10,
-    company: "google",
+    company: "USA",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Those born in the years 1933, 1945, 1957, 1969, 1981, 1993, 2005, and 2017 are Chicken according to the Chinese Zodiac! Show your Chicken pride this year with this cute Chinese Zodiac rooster design!",
+    productDescription: "Our fitted Unisex Cotton tee is made from an exceedingly soft 100% ring spun cotton. It features a crew neckline with hemmed sleeves and bottom for durability. Preshrunk for your convenience! Printed in the USA. Made with 100% Ring Spun Cotton. Athletic Gray is made up of 90% cotton and 10% polyester.",
     inCart: false,
     count: 0,
     total: 0
-  };
+};
