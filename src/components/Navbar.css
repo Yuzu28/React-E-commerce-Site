@@ -154,3 +154,19 @@ nav{
     .bblock{
         background-color: white !important;
     }
+
+    .modalStyle{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border: 2px solid black;
+
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
