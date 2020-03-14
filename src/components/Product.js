@@ -24,7 +24,11 @@ class Product extends Component {
                     </Link>
 
 
-                      <button className="cart-btn small-btn float-right"  disabled={inCart?true:false} onClick={()=>{value.addToCart(id)}}>
+                      <button className="cart-btn small-btn float-right"  disabled={inCart?true:false} 
+                      onClick={()=>{value.addToCart(id);
+                        value.openModal(id);
+                    
+                    }}>
 
 
                             {inCart ? (
