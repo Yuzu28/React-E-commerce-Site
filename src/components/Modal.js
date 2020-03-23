@@ -16,7 +16,8 @@ export default class Modal extends Component {
                       return null;
                   }else{
                       return (
-                          <div className="container modalStyle">
+                          <div className="modalStyle">
+                          <div className="container ">
                               <div className="row">
                                   <div id="modal" 
                                   className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p-5">
@@ -36,7 +37,8 @@ export default class Modal extends Component {
                                       </Link>
                                   </div>
                               </div>
-                          </div>    
+                          </div>  
+                          </div>  
                       )    
                   }
               }}
