@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 
-// import logo from '../../public/'
-// import {ButtonContainer} from './Button'
 
 class Navbar extends Component {
     render() {
@@ -15,8 +13,8 @@ class Navbar extends Component {
     
             <ul className="navbar-nav align-items-center ">
               <li className="nav-item ml-5">
-                 <Link to="/" className="nav-link">
-                  PRODUCTS
+                 <Link to="/shop" className="nav-link">
+                  Products
                  </Link>
               </li>
             </ul>

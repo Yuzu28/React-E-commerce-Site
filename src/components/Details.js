@@ -43,11 +43,11 @@ class Details extends Component {
                             </h4>
 
 
-                                                    <Link to="/">
-                          <button className=" mt-4 mb-2">Back to Products</button>
+                                                    <Link to="/shop">
+                          <button className=" shopButton mt-4 mb-2">Back to Products</button>
                           </Link>
 
-                          <button className=" mt-4 mb-2"                             
+                          <button className="  shopButton mt-4 mb-2"                             
                           disabled={inCart?true:false}
                             onClick={()=>{
                                 value.addToCart(id);
@@ -55,7 +55,7 @@ class Details extends Component {
                               console.log("you click me")
                             }}
                           >
-                            {inCart ? "inCart":"add to cart"}</button>
+                            {inCart ? "inCart":"Add to Cart"}</button>
 
                           
 
