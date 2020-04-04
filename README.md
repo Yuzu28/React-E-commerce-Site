@@ -3,7 +3,7 @@
 
 
 ## Description
-* A Chinese Zodiac T-Shirts store that allow users to view different items and add items to their cart. There is also a function that allow users to checkOut. 
+* A Chinese Zodiac T-Shirts store that allow users to view different price items and add items to their cart. There is also a function that allow users to checkOut. 
 
 
 
